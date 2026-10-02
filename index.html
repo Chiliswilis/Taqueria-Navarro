@@ -1,643 +1,284 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, viewport-fit=cover"
-    />
-    <title>Taquería Navarro — Tacos al carbón en La Concepción</title>
-    <meta
-      name="description"
-      content="Taquería Navarro: tacos de asada, adobada, tripa, chorizo y aldilla en Calle Díaz Ordaz, La Concepción. Viernes, sábado y domingo de 6:00 pm a 12:30 am. Servicio a domicilio."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header" id="siteHeader">
-      <div class="nav-inner">
-        <a href="#inicio" class="brand">
-          <svg
-            width="30"
-            height="30"
-            viewBox="0 0 64 64"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <path
-              d="M8 34c0-14 10.7-24 24-24s24 10 24 24"
-              stroke="#E8983A"
-              stroke-width="4"
-              stroke-linecap="round"
-            />
-            <path
-              d="M8 34c0 8 4 12 24 12s24-4 24-12"
-              stroke="#F3E9D7"
-              stroke-width="4"
-              stroke-linecap="round"
-            />
-            <circle cx="24" cy="30" r="2.4" fill="#F3E9D7" />
-            <circle cx="40" cy="30" r="2.4" fill="#F3E9D7" />
-            <circle cx="32" cy="24" r="2.4" fill="#F3E9D7" />
-          </svg>
-          <span class="brand-word">TAQUERÍA <span>NAVARRO</span></span>
-        </a>
-        <button
-          class="nav-toggle"
-          id="navToggle"
-          aria-label="Abrir menú"
-          aria-expanded="false"
-          aria-controls="navLinks"
-        >
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-          >
-            <path d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
-        <ul class="nav-links" id="navLinks">
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#nosotros">Quiénes somos</a></li>
-          <li><a href="#menu">Menú</a></li>
-          <li><a href="#galeria">Galería</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-          <li><a href="#contacto" class="nav-cta">Pedir a domicilio</a></li>
-        </ul>
-      </div>
-    </header>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Taquería Navarro — Tacos al carbón en La Concepción</title>
+<meta name="description" content="Taquería Navarro: tacos de asada, adobada, tripa, chorizo y aldilla en Calle Díaz Ordaz, La Concepción. Viernes, sábado y domingo de 6:00 pm a 12:30 am. Servicio a domicilio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <main>
-      <!-- ============ HOME ============ -->
-      <section class="hero" id="inicio">
-        <div class="container hero-grid">
-          <div>
-            <div class="status-badge hero-reveal" id="statusBadge">
-              <span class="status-dot" id="statusDot"></span>
-              <span id="statusText">Consultando horario…</span>
-            </div>
-            <h1 class="hero-reveal">
-              Sabor de barrio,<br /><em>directo al carbón.</em>
-            </h1>
-            <p class="lede hero-reveal">
-              Tacos de asada, adobada, tripa, chorizo y aldilla, preparados al
-              momento en plena calle Díaz Ordaz, La Concepción. Mesas atendidas
-              y pedidos a domicilio, viernes, sábado y domingo.
-            </p>
-            <div class="hero-ctas hero-reveal">
-              <a href="#menu" class="btn btn-primary">Ver el menú</a>
-              <a href="#contacto" class="btn btn-outline">Pedir a domicilio</a>
-            </div>
-          </div>
-          <div class="sign hero-reveal">
-            <svg
-              class="sign-icon"
-              width="40"
-              height="40"
-              viewBox="0 0 64 64"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-            >
-              <path
-                d="M32 8c6 8-4 10-2 18 8-2 10-8 10-8 4 8 0 20-10 26-10-6-14-18-10-26 0 0 2 4 6 4-2-6 2-10 6-14z"
-                fill="#E8983A"
-              />
-            </svg>
-            <div class="sign-eyebrow">Abrimos</div>
-            <div class="sign-days">Vie · Sáb · Dom</div>
-            <div class="sign-hours">6:00 pm – 12:30 am</div>
-          </div>
+<header class="site-header" id="siteHeader">
+  <div class="nav-inner">
+    <a href="#inicio" class="brand">
+      <svg width="30" height="30" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M8 34c0-14 10.7-24 24-24s24 10 24 24" stroke="#E8983A" stroke-width="4" stroke-linecap="round"/>
+        <path d="M8 34c0 8 4 12 24 12s24-4 24-12" stroke="#F3E9D7" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="24" cy="30" r="2.4" fill="#F3E9D7"/>
+        <circle cx="40" cy="30" r="2.4" fill="#F3E9D7"/>
+        <circle cx="32" cy="24" r="2.4" fill="#F3E9D7"/>
+      </svg>
+      <span class="brand-word">TAQUERÍA <span>NAVARRO</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#nosotros">Quiénes somos</a></li>
+      <li><a href="#menu">Menú</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="#contacto" class="nav-cta">Pedir a domicilio</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HOME ============ -->
+  <section class="hero" id="inicio">
+    <div class="container hero-grid">
+      <div>
+        <div class="status-badge hero-reveal" id="statusBadge">
+          <span class="status-dot" id="statusDot"></span>
+          <span id="statusText">Consultando horario…</span>
         </div>
-      </section>
-
-      <!-- ============ QUIÉNES SOMOS ============ -->
-      <!-- ============ QUIÉNES SOMOS ============ -->
-      <section class="nosotros section-pad" id="nosotros">
-        <div class="container">
-          <p class="section-kicker">Quiénes somos</p>
-          <h2 class="section-title">
-            De la parrilla familiar a la esquina de Díaz Ordaz
-          </h2>
-          <div class="historia-grid">
-            <div>
-              <p>
-                Taquería Navarro nació de una parrilla puesta en la banqueta y
-                de la insistencia de que un buen taco no necesita más que carne
-                bien cortada, tortilla recién echada y salsa hecha ese mismo
-                día. Con los años, esa parrilla se convirtió en punto de
-                encuentro del barrio los fines de semana.
-              </p>
-              <p>
-                Hoy seguimos trabajando igual: al carbón, sin prisas, con el
-                mismo trompo, la misma mano para el chorizo y las mismas mesas
-                donde caben las historias de sobremesa. Tres días a la semana,
-                todo el sabor.
-              </p>
-            </div>
-            <div class="mv-list">
-              <div class="mv-card">
-                <h3>Misión</h3>
-                <p>
-                  Servir tacos hechos al momento, con ingredientes frescos y
-                  buen trato, para que cada visita se sienta como llegar a casa
-                  de la familia.
-                </p>
-              </div>
-              <div class="mv-card">
-                <h3>Visión</h3>
-                <p>
-                  Ser la taquería de referencia de La Concepción los fines de
-                  semana, sin perder nunca la sazón ni el trato de puesto de
-                  barrio.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="equipo">
-            <h3 class="subhead">Nuestro equipo</h3>
-            <div class="equipo-grid">
-              <div class="persona-card">
-                <div class="persona-photo">
-                  <svg
-                    viewBox="0 0 64 64"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="32"
-                      cy="24"
-                      r="11"
-                      stroke="currentColor"
-                      stroke-width="3"
-                    />
-                    <path
-                      d="M12 54c2-12 10-18 20-18s18 6 20 18"
-                      stroke="currentColor"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                    />
-                  </svg>
-                  <span class="photo-tag">Agregar foto real</span>
-                </div>
-                <div class="persona-info">
-                  <div class="name">Parrillero en jefe</div>
-                  <div class="role">A cargo del carbón</div>
-                </div>
-              </div>
-              <div class="persona-card">
-                <div class="persona-photo">
-                  <svg
-                    viewBox="0 0 64 64"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="32"
-                      cy="24"
-                      r="11"
-                      stroke="currentColor"
-                      stroke-width="3"
-                    />
-                    <path
-                      d="M12 54c2-12 10-18 20-18s18 6 20 18"
-                      stroke="currentColor"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                    />
-                  </svg>
-                  <span class="photo-tag">Agregar foto real</span>
-                </div>
-                <div class="persona-info">
-                  <div class="name">Equipo de meseras</div>
-                  <div class="role">Atención en mesa</div>
-                </div>
-              </div>
-              <div class="persona-card">
-                <div class="persona-photo">
-                  <svg
-                    viewBox="0 0 64 64"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="32"
-                      cy="24"
-                      r="11"
-                      stroke="currentColor"
-                      stroke-width="3"
-                    />
-                    <path
-                      d="M12 54c2-12 10-18 20-18s18 6 20 18"
-                      stroke="currentColor"
-                      stroke-width="3"
-                      stroke-linecap="round"
-                    />
-                  </svg>
-                  <span class="photo-tag">Agregar foto real</span>
-                </div>
-                <div class="persona-info">
-                  <div class="name">Reparto</div>
-                  <div class="role">Servicio a domicilio</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ============ MENÚ / SERVICIOS ============ -->
-      <section class="menu section-pad" id="menu">
-        <div class="container">
-          <p class="section-kicker" style="color: var(--ember)">Menú</p>
-          <h2 class="section-title">Tacos al carbón, hechos al momento</h2>
-          <p class="menu-note">
-            Precios de referencia por pieza. Ajústalos a tus costos reales antes
-            de publicar.
-          </p>
-
-          <div class="menu-columns">
-            <div class="menu-block">
-              <h3>Tacos</h3>
-              <div class="menu-row">
-                <span class="name">Asada</span><span class="leader"></span
-                ><span class="price">$20</span>
-              </div>
-              <div class="menu-row">
-                <span class="name">Adobada</span><span class="leader"></span
-                ><span class="price">$20</span>
-              </div>
-              <div class="menu-row">
-                <span class="name">Tripa</span><span class="leader"></span
-                ><span class="price">$25</span>
-              </div>
-              <div class="menu-row">
-                <span class="name">Chorizo</span><span class="leader"></span
-                ><span class="price">$20</span>
-              </div>
-              <div class="menu-row">
-                <span class="name">Aldilla</span><span class="leader"></span
-                ><span class="price">$20</span>
-              </div>
-              <div class="menu-extra">
-                Orden de 3 tacos (mismo guisado): $50
-              </div>
-            </div>
-            <div class="menu-block">
-              <h3>Especialidades</h3>
-              <div class="menu-row">
-                <span class="name"
-                  >Vampiro<span class="desc"
-                    >Tortilla crujiente, queso y carne al gusto</span
-                  ></span
-                >
-                <span class="leader"></span><span class="price">$35</span>
-              </div>
-              <div class="menu-row">
-                <span class="name"
-                  >Quesadilla<span class="desc"
-                    >Al comal, rellena al gusto</span
-                  ></span
-                >
-                <span class="leader"></span><span class="price">$35</span>
-              </div>
-              <div class="menu-extra">
-                Servicio en mesa con meseras y entrega a domicilio en La
-                Concepción y alrededores.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ============ GALERÍA ============ -->
-      <section class="galeria section-pad" id="galeria">
-        <div class="container">
-          <p class="section-kicker">Galería</p>
-          <h2 class="section-title">Así se vive Taquería Navarro</h2>
-          <p class="lede" style="margin-top: 14px">
-            Estos espacios están listos para tus fotos reales: la parrilla, el
-            puesto de noche, las mesas llenas. Sustituye cada recuadro por una
-            imagen tuya.
-          </p>
-          <div class="gal-grid">
-            <div class="gal-tile">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.6"
-              >
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <circle cx="12" cy="13" r="3.4" />
-                <path d="M9 6l1.2-2h3.6L15 6" /></svg
-              ><span class="cap">La parrilla</span
-              ><span class="hint">Reemplazar por foto real</span>
-            </div>
-            <div class="gal-tile">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.6"
-              >
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <circle cx="12" cy="13" r="3.4" />
-                <path d="M9 6l1.2-2h3.6L15 6" /></svg
-              ><span class="cap">Tacos servidos</span
-              ><span class="hint">Reemplazar por foto real</span>
-            </div>
-            <div class="gal-tile">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.6"
-              >
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <circle cx="12" cy="13" r="3.4" />
-                <path d="M9 6l1.2-2h3.6L15 6" /></svg
-              ><span class="cap">El puesto de noche</span
-              ><span class="hint">Reemplazar por foto real</span>
-            </div>
-            <div class="gal-tile">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.6"
-              >
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <circle cx="12" cy="13" r="3.4" />
-                <path d="M9 6l1.2-2h3.6L15 6" /></svg
-              ><span class="cap">Mesas y clientes</span
-              ><span class="hint">Reemplazar por foto real</span>
-            </div>
-            <div class="gal-tile">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.6"
-              >
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <circle cx="12" cy="13" r="3.4" />
-                <path d="M9 6l1.2-2h3.6L15 6" /></svg
-              ><span class="cap">Vampiros y quesadillas</span
-              ><span class="hint">Reemplazar por foto real</span>
-            </div>
-            <div class="gal-tile">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.6"
-              >
-                <rect x="3" y="6" width="18" height="14" rx="2" />
-                <circle cx="12" cy="13" r="3.4" />
-                <path d="M9 6l1.2-2h3.6L15 6" /></svg
-              ><span class="cap">Equipo en acción</span
-              ><span class="hint">Reemplazar por foto real</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ============ CONTACTO ============ -->
-      <section class="contacto section-pad" id="contacto">
-        <div class="container">
-          <p class="section-kicker" style="color: var(--ember)">Contacto</p>
-          <h2 class="section-title">Haz tu pedido o resérvanos tu mesa</h2>
-
-          <div class="contacto-grid">
-            <div>
-              <ul class="info-list">
-                <li>
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  >
-                    <path
-                      d="M12 21s7-7.2 7-12a7 7 0 10-14 0c0 4.8 7 12 7 12z"
-                    />
-                    <circle cx="12" cy="9" r="2.4" />
-                  </svg>
-                  <span
-                    ><span class="label">Dirección</span
-                    ><span class="value"
-                      >Calle Díaz Ordaz, La Concepción</span
-                    ></span
-                  >
-                </li>
-                <li>
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  >
-                    <circle cx="12" cy="12" r="9" />
-                    <path d="M12 7v5l3 3" />
-                  </svg>
-                  <span
-                    ><span class="label">Horario</span
-                    ><span class="value"
-                      >Viernes, sábado y domingo · 6:00 pm – 12:30 am</span
-                    ></span
-                  >
-                </li>
-                <li>
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  >
-                    <path
-                      d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.5 2.1L8 9.7a16 16 0 006 6l1.2-1.2a2 2 0 012.1-.5c.9.3 1.8.5 2.7.6a2 2 0 011.7 2z"
-                    />
-                  </svg>
-                  <span
-                    ><span class="label">Teléfono / WhatsApp</span
-                    ><span class="value">Agregar número real</span></span
-                  >
-                </li>
-                <li>
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  >
-                    <rect x="3" y="4" width="18" height="16" rx="2" />
-                    <path d="M3 8h18M8 4v4" />
-                  </svg>
-                  <span
-                    ><span class="label">Servicio</span
-                    ><span class="value"
-                      >Mesas atendidas y entrega a domicilio</span
-                    ></span
-                  >
-                </li>
-              </ul>
-              <div class="social-row">
-                <a
-                  href="#"
-                  aria-label="Facebook"
-                  title="Agregar enlace real de Facebook"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  >
-                    <path
-                      d="M15 8h2V4h-2a4 4 0 00-4 4v2H9v4h2v6h4v-6h2.5l.5-4H15V8z"
-                    />
-                  </svg>
-                </a>
-                <a
-                  href="#"
-                  aria-label="Instagram"
-                  title="Agregar enlace real de Instagram"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  >
-                    <rect x="3" y="3" width="18" height="18" rx="5" />
-                    <circle cx="12" cy="12" r="4" />
-                    <circle cx="17.2" cy="6.8" r="1" />
-                  </svg>
-                </a>
-                <a
-                  href="#"
-                  aria-label="WhatsApp"
-                  title="Agregar enlace real de WhatsApp"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.8"
-                  >
-                    <path
-                      d="M21 11.5a8.5 8.5 0 11-4.1-7.3L21 3l-1.1 4A8.4 8.4 0 0121 11.5z"
-                    />
-                    <path d="M8 10c.5 2.5 2.5 4.5 5 5" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <form id="orderForm">
-              <div class="field">
-                <label for="nombre">Nombre</label>
-                <input
-                  type="text"
-                  id="nombre"
-                  name="nombre"
-                  placeholder="Tu nombre"
-                  required
-                />
-              </div>
-              <div class="field">
-                <label for="telefono">Teléfono</label>
-                <input
-                  type="tel"
-                  id="telefono"
-                  name="telefono"
-                  placeholder="Para confirmar tu pedido"
-                  required
-                />
-              </div>
-              <div class="field">
-                <label for="tipo">Tipo de servicio</label>
-                <select id="tipo" name="tipo">
-                  <option value="Recoger en el puesto">
-                    Recoger en el puesto
-                  </option>
-                  <option value="Domicilio">Entrega a domicilio</option>
-                  <option value="Mesa">Reservar mesa</option>
-                </select>
-              </div>
-              <div class="field">
-                <label for="pedido">Tu pedido o mensaje</label>
-                <textarea
-                  id="pedido"
-                  name="pedido"
-                  placeholder="Ej. 6 tacos de asada, 2 de tripa, 1 vampiro…"
-                  required
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                class="btn btn-primary"
-                style="justify-content: center"
-              >
-                Enviar por WhatsApp
-              </button>
-              <p class="form-msg" id="formMsg"></p>
-            </form>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="container">
-        <div class="footer-grid">
-          <div class="footer-brand">
-            <span class="brand-word"
-              >TAQUERÍA <span style="color: var(--chile)">NAVARRO</span></span
-            >
-            <p>
-              Tacos al carbón de barrio, en Calle Díaz Ordaz, La Concepción.
-              Viernes, sábado y domingo.
-            </p>
-          </div>
-          <div class="footer-cols">
-            <div class="footer-col">
-              <h4>Redes sociales</h4>
-              <a href="#">Facebook</a>
-              <a href="#">Instagram</a>
-              <a href="#">WhatsApp</a>
-            </div>
-            <div class="footer-col">
-              <h4>Ubicación</h4>
-              <p>Calle Díaz Ordaz</p>
-              <p>La Concepción</p>
-            </div>
-            <div class="footer-col">
-              <h4>Horario</h4>
-              <p>Vie · Sáb · Dom</p>
-              <p>6:00 pm – 12:30 am</p>
-            </div>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          © <span id="year"></span> Taquería Navarro. Todos los derechos
-          reservados.
+        <h1 class="hero-reveal">Sabor de barrio,<br><em>directo al carbón.</em></h1>
+        <p class="lede hero-reveal">Tacos de asada, adobada, tripa, chorizo y aldilla, preparados al momento en plena calle Díaz Ordaz, La Concepción. Mesas atendidas y pedidos a domicilio, viernes, sábado y domingo.</p>
+        <div class="hero-ctas hero-reveal">
+          <a href="#menu" class="btn btn-primary">Ver el menú</a>
+          <a href="#contacto" class="btn btn-outline">Pedir a domicilio</a>
         </div>
       </div>
-    </footer>
+      <div class="sign hero-reveal">
+        <svg class="sign-icon" width="40" height="40" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M32 8c6 8-4 10-2 18 8-2 10-8 10-8 4 8 0 20-10 26-10-6-14-18-10-26 0 0 2 4 6 4-2-6 2-10 6-14z" fill="#E8983A"/>
+        </svg>
+        <div class="sign-eyebrow">Abrimos</div>
+        <div class="sign-days">Vie · Sáb · Dom</div>
+        <div class="sign-hours">6:00 pm – 12:30 am</div>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
-  </body>
+   <!-- ============ QUIÉNES SOMOS ============ -->
+  <!-- ============ QUIÉNES SOMOS ============ -->
+  <section class="nosotros section-pad" id="nosotros">
+    <div class="container">
+      <p class="section-kicker">Quiénes somos</p>
+      <h2 class="section-title">De la parrilla familiar a la esquina de Díaz Ordaz</h2>
+      <div class="historia-grid">
+        <div>
+          <p>Taquería Navarro nació de una parrilla puesta en la banqueta y de la insistencia de que un buen taco no necesita más que carne bien cortada, tortilla recién echada y salsa hecha ese mismo día. Con los años, esa parrilla se convirtió en punto de encuentro del barrio los fines de semana.</p>
+          <p>Hoy seguimos trabajando igual: al carbón, sin prisas, con el mismo trompo, la misma mano para el chorizo y las mismas mesas donde caben las historias de sobremesa. Tres días a la semana, todo el sabor.</p>
+        </div>
+        <div class="mv-list">
+          <div class="mv-card">
+            <h3>Misión</h3>
+            <p>Servir tacos hechos al momento, con ingredientes frescos y buen trato, para que cada visita se sienta como llegar a casa de la familia.</p>
+          </div>
+          <div class="mv-card">
+            <h3>Visión</h3>
+            <p>Ser la taquería de referencia de La Concepción los fines de semana, sin perder nunca la sazón ni el trato de puesto de barrio.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="equipo">
+        <h3 class="subhead">Nuestro equipo</h3>
+        <div class="equipo-grid">
+          <div class="persona-card">
+            <div class="persona-photo">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="24" r="11" stroke="currentColor" stroke-width="3"/><path d="M12 54c2-12 10-18 20-18s18 6 20 18" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+              <span class="photo-tag">Agregar foto real</span>
+            </div>
+            <div class="persona-info">
+              <div class="name">Parrillero en jefe</div>
+              <div class="role">A cargo del carbón</div>
+            </div>
+          </div>
+          <div class="persona-card">
+            <div class="persona-photo">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="24" r="11" stroke="currentColor" stroke-width="3"/><path d="M12 54c2-12 10-18 20-18s18 6 20 18" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+              <span class="photo-tag">Agregar foto real</span>
+            </div>
+            <div class="persona-info">
+              <div class="name">Equipo de meseras</div>
+              <div class="role">Atención en mesa</div>
+            </div>
+          </div>
+          <div class="persona-card">
+            <div class="persona-photo">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="24" r="11" stroke="currentColor" stroke-width="3"/><path d="M12 54c2-12 10-18 20-18s18 6 20 18" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+              <span class="photo-tag">Agregar foto real</span>
+            </div>
+            <div class="persona-info">
+              <div class="name">Reparto</div>
+              <div class="role">Servicio a domicilio</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MENÚ / SERVICIOS ============ -->
+  <section class="menu section-pad" id="menu">
+    <div class="container">
+      <p class="section-kicker" style="color:var(--ember)">Menú</p>
+      <h2 class="section-title">Tacos al carbón, hechos al momento</h2>
+      <p class="menu-note">Precios de referencia por pieza. Ajústalos a tus costos reales antes de publicar.</p>
+
+      <div class="menu-columns">
+        <div class="menu-block">
+          <h3>Tacos</h3>
+          <div class="menu-row"><span class="name">Asada</span><span class="leader"></span><span class="price">$20</span></div>
+          <div class="menu-row"><span class="name">Adobada</span><span class="leader"></span><span class="price">$20</span></div>
+          <div class="menu-row"><span class="name">Tripa</span><span class="leader"></span><span class="price">$25</span></div>
+          <div class="menu-row"><span class="name">Chorizo</span><span class="leader"></span><span class="price">$20</span></div>
+          <div class="menu-row"><span class="name">Aldilla</span><span class="leader"></span><span class="price">$20</span></div>
+          <div class="menu-extra">Orden de 3 tacos (mismo guisado): $50</div>
+        </div>
+        <div class="menu-block">
+          <h3>Especialidades</h3>
+          <div class="menu-row">
+            <span class="name">Vampiro<span class="desc">Tortilla crujiente, queso y carne al gusto</span></span>
+            <span class="leader"></span><span class="price">$35</span>
+          </div>
+          <div class="menu-row">
+            <span class="name">Quesadilla<span class="desc">Al comal, rellena al gusto</span></span>
+            <span class="leader"></span><span class="price">$35</span>
+          </div>
+          <div class="menu-extra">Servicio en mesa con meseras y entrega a domicilio en La Concepción y alrededores.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALERÍA ============ -->
+  <section class="galeria section-pad" id="galeria">
+    <div class="container">
+      <p class="section-kicker">Galería</p>
+      <h2 class="section-title">Así se vive Taquería Navarro</h2>
+      <p class="lede" style="margin-top:14px;">Estos espacios están listos para tus fotos reales: la parrilla, el puesto de noche, las mesas llenas. Sustituye cada recuadro por una imagen tuya.</p>
+      <div class="gal-grid">
+        <div class="gal-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.4"/><path d="M9 6l1.2-2h3.6L15 6"/></svg><span class="cap">La parrilla</span><span class="hint">Reemplazar por foto real</span></div>
+        <div class="gal-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.4"/><path d="M9 6l1.2-2h3.6L15 6"/></svg><span class="cap">Tacos servidos</span><span class="hint">Reemplazar por foto real</span></div>
+        <div class="gal-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.4"/><path d="M9 6l1.2-2h3.6L15 6"/></svg><span class="cap">El puesto de noche</span><span class="hint">Reemplazar por foto real</span></div>
+        <div class="gal-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.4"/><path d="M9 6l1.2-2h3.6L15 6"/></svg><span class="cap">Mesas y clientes</span><span class="hint">Reemplazar por foto real</span></div>
+        <div class="gal-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.4"/><path d="M9 6l1.2-2h3.6L15 6"/></svg><span class="cap">Vampiros y quesadillas</span><span class="hint">Reemplazar por foto real</span></div>
+        <div class="gal-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.4"/><path d="M9 6l1.2-2h3.6L15 6"/></svg><span class="cap">Equipo en acción</span><span class="hint">Reemplazar por foto real</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="contacto section-pad" id="contacto">
+    <div class="container">
+      <p class="section-kicker" style="color:var(--ember)">Contacto</p>
+      <h2 class="section-title">Haz tu pedido o resérvanos tu mesa</h2>
+
+      <div class="contacto-grid">
+        <div>
+          <ul class="info-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-7.2 7-12a7 7 0 10-14 0c0 4.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.4"/></svg>
+              <span><span class="label">Dirección</span><span class="value">Calle Díaz Ordaz, La Concepción</span></span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+              <span><span class="label">Horario</span><span class="value">Viernes, sábado y domingo · 6:00 pm – 12:30 am</span></span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.5 2.1L8 9.7a16 16 0 006 6l1.2-1.2a2 2 0 012.1-.5c.9.3 1.8.5 2.7.6a2 2 0 011.7 2z"/></svg>
+              <span><span class="label">Teléfono / WhatsApp</span><span class="value">Agregar número real</span></span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 8h18M8 4v4"/></svg>
+              <span><span class="label">Servicio</span><span class="value">Mesas atendidas y entrega a domicilio</span></span>
+            </li>
+          </ul>
+          <div class="social-row">
+            <a href="#" aria-label="Facebook" title="Agregar enlace real de Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 8h2V4h-2a4 4 0 00-4 4v2H9v4h2v6h4v-6h2.5l.5-4H15V8z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" title="Agregar enlace real de Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+            </a>
+            <a href="#" aria-label="WhatsApp" title="Agregar enlace real de WhatsApp">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.5 8.5 0 11-4.1-7.3L21 3l-1.1 4A8.4 8.4 0 0121 11.5z"/><path d="M8 10c.5 2.5 2.5 4.5 5 5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <form id="orderForm">
+          <div class="field">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+          </div>
+          <div class="field">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Para confirmar tu pedido" required>
+          </div>
+          <div class="field">
+            <label for="tipo">Tipo de servicio</label>
+            <select id="tipo" name="tipo">
+              <option value="Recoger en el puesto">Recoger en el puesto</option>
+              <option value="Domicilio">Entrega a domicilio</option>
+              <option value="Mesa">Reservar mesa</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="pedido">Tu pedido o mensaje</label>
+            <textarea id="pedido" name="pedido" placeholder="Ej. 6 tacos de asada, 2 de tripa, 1 vampiro…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="justify-content:center;">Enviar por WhatsApp</button>
+          <p class="form-msg" id="formMsg"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-word">TAQUERÍA <span style="color:var(--chile)">NAVARRO</span></span>
+        <p>Tacos al carbón de barrio, en Calle Díaz Ordaz, La Concepción. Viernes, sábado y domingo.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Redes sociales</h4>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">WhatsApp</a>
+        </div>
+        <div class="footer-col">
+          <h4>Ubicación</h4>
+          <p>Calle Díaz Ordaz</p>
+          <p>La Concepción</p>
+        </div>
+        <div class="footer-col">
+          <h4>Horario</h4>
+          <p>Vie · Sáb · Dom</p>
+          <p>6:00 pm – 12:30 am</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © <span id="year"></span> Taquería Navarro. Todos los derechos reservados.
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
 </html>
