@@ -5,7 +5,7 @@
   var yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  // Header con sombra al hacer scroll
+  // Header con sombra al hacer scrolllll
   var header = document.getElementById('siteHeader');
   function onScroll(){
     if (window.scrollY > 12) header.classList.add('scrolled');
